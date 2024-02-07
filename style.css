@@ -178,7 +178,49 @@ main {
     margin-left: 20%;
     font-size: 30px;
 }
+.contenedor-slider{
+    
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+   
+    
+    
+}
+.slider{
+    display: flex;
+    transition: transform 0.5s ease;
+    justify-content: center;
+   
+   
 
+}
+.tarjeta{
+    flex: 0 0 300px;
+    height:  200px;
+    margin:  0 10px;
+    background-color: white;
+    border-radius:8px;
+
+}
+.p-js{
+    margin: 20px;
+}
+
+.preBtn, .nextbtn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.preBtn{
+    left: 0;
+}
+.nextbtn{
+    right: 0;
+}
 .contenedor-tarjetas {
     width: 90%;
     margin: 20px auto;
@@ -208,10 +250,8 @@ main {
 
 .parrafo-tarj {
     font-size: 14px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    text-align: left;
+    
+    text-align: center;
 
 }
 
@@ -882,4 +922,3 @@ textarea {
   .contenedor-btn-a, .contenedor-calidad{
     min-width: 220px;
   }
-}

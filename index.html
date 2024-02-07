@@ -71,7 +71,9 @@
                 </div>
 
             </div>
-            <div class="img-main"><img src="./imagen/nan.jpeg" alt=""></div>
+            <div class="img-main">
+                <img src="./imagen/nan.jpeg" id="mainimg" alt="">
+            </div>
 
 
         </div>
@@ -85,65 +87,71 @@
         <h2 class="loquehago">Lo que hago</h2>
 
 
-        <div class="contenedor-tarjetas">
-            <div class="tarjetas">
-                <span class="icon"><i class="bi bi-list"></i></span>
-                <h3 class="h3-tarjetas">Estrategia</h3>
-                <p class="parrafo-tarj">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi doloremque</p>
-            </div>
-            <div class="tarjetas">
-                <span class="icon"><i class="bi bi-book"></i></span>
-                <h3 class="h3-tarjetas">Desarrollo de app</h3>
-                <p class="parrafo-tarj">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-            </div>
-            <div class="tarjetas">
-                <span class="icon"><i class="fa-solid fa-tv"></i></span>
-                <h3 class="h3-tarjetas">App Recientes</h3>
-                <p class="parrafo-tarj">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore </p>
-            </div>
+        <div class="contenedor-slider" id="ok">
+            <div class="slider">
+                <div class="tarjeta">
+                    <span class="icon"><i class="bi bi-list"></i></span>
+                    <h3 class="h3-tarjetas">Estrategia</h3>
+                    <p class="p-js">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi doloremque
+                    </p>
 
-        </div>
-        <div class="contenedor-tarjetas">
-            <div class="tarjetas">
-                <span class="icon"><i class="bi bi-chat-left-quote"></i></span>
-                <h3 class="h3-tarjetas">Mobile App</h3>
-                <p class="parrafo-tarj">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nostrum labore
-                </p>
-            </div>
-            <div class="tarjetas">
-                <span class="icon"><i class="bi bi-wifi"></i></span>
-                <h3 class="h3-tarjetas">CEO Marketing</h3>
-                <p class="parrafo-tarj">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla
-                </p>
-            </div>
-            <div class="tarjetas">
-                <span class="icon"><i class="bi bi-flower3"></i></span>
-                <h3 class="h3-tarjetas">Portfolio Diciembre</h3>
-                <p class="parrafo-tarj">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis,
+                </div>
+                <div class="tarjeta">
+                    <span class="icon"><i class="bi bi-book"></i></span>
+                    <h3 class="h3-tarjetas">Desarrollo de app</h3>
+                    <p class="p-js">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon"><i class="fa-solid fa-tv"></i></span>
+                    <h3 class="h3-tarjetas">App Recientes</h3>
+                    <p class="p-js">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore </p>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon"><i class="bi bi-chat-left-quote"></i></span>
+                    <h3 class="h3-tarjetas">Mobile App</h3>
+                    <p class="p-js">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nostrum
+                        labore
+                    </p>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon"><i class="bi bi-wifi"></i></span>
+                    <h3 class="h3-tarjetas">CEO Marketing</h3>
+                    <p class="p-js">Lorem, ipsum dolor sit amet 
+                         adipisicing elit. Molestiae nulla
+                    </p>
+                </div>
+                <div class="tarjeta">
+                    <span class="icon"><i class="bi bi-flower3"></i></span>
+                    <h3 class="h3-tarjetas">Portfolio Diciembre</h3>
+                    <p  class="p-js">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perspiciatis,
 
-                </p>
-            </div>
+                    </p>
+                </div>
 
+            </div>
+            <button class="prevBtn" id="prevBtn"><i class="bi bi-chevron-left"></i></button>
+            <button class="nextbtn" id="nextbtn"><i class="bi bi-chevron-right"></i></button>
 
         </div>
 
     </section>
-
+    <!--Seccion My Portfolio-->
     <section class="características">
         <span class="span-visita">Visitá mi portafolio y dejá tu comentario</span>
         <h2 class="h2-myportfolio">Mi Portafolio</h2>
         <div class="contenedor-tarjetas">
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasUno">
                 <img src="./imagen/imagen1.jpeg" alt="">
                 <span class="deve">DEVELOPMENT</span> <span class="span-seccion2">600</span>
                 <p>The services provide for design</p>
+                <div id="newpUno"></div>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasDos">
                 <img src="./imagen/imagen2.jpeg" alt="">
                 <span class="deve">APPLICATION</span> <span class="span-750">750</span>
                 <p>Mobile app landing design & app maintain</p>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasTres">
                 <img src="./imagen/imagen3.jpeg" alt="">
                 <span class="deve">DESIGN</span> <span class="span-630">630</span>
                 <p>Logo design creativity & Application</p>
@@ -152,17 +160,17 @@
 
         </div>
         <div class="contenedor-tarjetas">
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasCuatro">
                 <img src="./imagen/imagen4.jpeg" alt="">
                 <span class="deve">FIGMA</span> <span class="span-360">360</span>
                 <p>Mobile app landing design & Services</p>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasCinco">
                 <img src="./imagen/imagen5.jpeg" alt="">
                 <span class="deve">WEB DESIGN</span> <span class="span-280">280</span>
                 <p>Design for tecnology & services</p>
             </div>
-            <div class="tarjetas">
+            <div class="tarjetas" id="saberMasSeis">
                 <img src="./imagen/imagen6.jpeg" alt="">
                 <span class="deve">WEB DESIGN</span> <span class="span-690">690</span>
                 <p>App for tecnology & services</p>
@@ -321,23 +329,24 @@
 
             </div>
             <div class="box-form">
-                <div class="form-hijo">
-                    <form action="">
+                <div class="form-hijo" id="contenedorForm">
+                    <form id="contactForm">
                         <span class="your">YOUR NAME</span>
-                        <span class="input-1"><input type="text"></span>
+                        <span class="input-1"><input type="text" id="nombre" required></span>
 
                         <span class="phone">PHONE NUMBER</span>
-                        <span class="input-2"><input type="text"></span>
+                        <span class="input-2"><input type="text" id="number" required></span>
 
                         <span class="email">EMAIL</span>
-                        <span class="input-3"> <input type="email"></span>
+                        <span class="input-3"> <input type="email" id="email" required></span>
                         <span class="subjet">SUBJET</span>
-                        <span class="input-4"><input type="text"></span>
+                        <span class="input-4"><input type="text" id="subjet"></span>
 
                         <span class="message">YOUR MESSAGE</span>
-                        <span class="textarea"><textarea cols="42" rows="10"></textarea></span>
+                        <span class="textarea" id="mensaje"><textarea cols="42" rows="10"></textarea></span>
                         <button class="send">SEND MESSAGE</button>
                     </form>
+                    <div id="respuesta"></div>
                 </div>
             </div>
 
@@ -347,7 +356,7 @@
 
 
 
-
+    <script src="app.js"></script>
 </body>
 
 </html>
